@@ -189,7 +189,7 @@ body {
 
 
 .products {
-    background-image: url("../images/burgers_bg.png");
+    background-image: url(" ../images/burgers_bg.png");
     background-position: top center;
     background-size: 1400px;
     padding-bottom: 180px;
@@ -224,7 +224,7 @@ body {
 }
 
 .products-item-text {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 140%;
     margin-bottom: 24px;
 }
@@ -324,7 +324,7 @@ body {
     color: white;
 }
 
-.order-form-input .button {
+.order-form-inputs .button {
     width: 344px;
     height: 62px;
 }
