@@ -149,6 +149,11 @@ body {
     margin-bottom: 56px;
 }
 
+.main-action .button {
+    position: relative;
+    z-index: 10;
+}
+
 .main-image {
     position: absolute;
     top: -123px;
