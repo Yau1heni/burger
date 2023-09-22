@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("./assets/fonts/Gilroy-Semibold.ttf");
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url("./assets/fonts/Merriweather-Black.ttf");
+}
+
+body {
+  background-color: #191411;
+  font-family: 'Gilroy', 'sans-serif';
+  color: white;
+}
+
+.main {
+  overflow: hidden;
+  background-image: url("./assets/images/main_bg.png ");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(96deg, #DA8023 0%, #E2B438 100%);
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  width: 260px;
+  height: 62px;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 8px;
+  color: #191411;
+  font-size: 18px;
+}
+
+.button:hover {
+  background: linear-gradient(96deg, #AC6115 0%, #9E7A19 100%);
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  color: grey;
+  background: #343434;
+}
+
+.common-title {
+  font-family: Merriweather, sans-serif;
+  font-size: 64px;
+  line-height: 80px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
